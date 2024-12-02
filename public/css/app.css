@@ -1,5 +1,38 @@
-p {
-  color: blue;
+* {
+  margin: 0;
+}
+
+header nav {
+  background-color: #363B47;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+}
+header nav h1 {
+  color: white;
+}
+header nav div {
+  display: flex;
+  gap: 0rem;
+}
+header nav div div {
+  padding: 1rem;
+  color: #857F77;
+}
+header nav div div:first-child {
+  background-color: #3676BB;
+  color: white;
+}
+header nav div div:hover {
+  background-color: #3676BB;
+}
+header img {
+  object-fit: contain;
+}
+
+#buzzQuote {
+  background-color: #E8E6E0;
 }
 
 /*# sourceMappingURL=app.css.map */
