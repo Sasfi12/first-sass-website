@@ -19,6 +19,7 @@ header nav div {
 header nav div div {
   padding: 1rem;
   color: #857F77;
+  transition: 1s;
 }
 header nav div div:first-child {
   background-color: #3676BB;
@@ -26,6 +27,7 @@ header nav div div:first-child {
 }
 header nav div div:hover {
   background-color: #3676BB;
+  color: white;
 }
 header img {
   object-fit: contain;
@@ -33,6 +35,12 @@ header img {
 
 #buzzQuote {
   background-color: #E8E6E0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
 }
 
 /*# sourceMappingURL=app.css.map */
