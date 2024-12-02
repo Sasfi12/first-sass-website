@@ -58,15 +58,18 @@ header img {
   display: flex;
   justify-content: space-arround;
   flex-direction: column;
+  margin-left: 5%;
+  margin-right: 5%;
 }
-#mainContent .up {
+
+.up {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   padding: 4rem;
   gap: 2 rem;
 }
-#mainContent .up .box {
+.up .box {
   width: 20%;
   height: 20%;
   border: none;
@@ -76,16 +79,61 @@ header img {
   justify-content: center;
   align-items: center;
 }
-#mainContent .down {
+
+.down {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  gap: 2rem;
 }
-#mainContent .down .recentWork {
+.down .recentWork {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
+  align-items: flex-start;
+  width: 30%;
+  height: 50%;
+  gap: 2rem;
+}
+.down .recentWork h2 {
+  color: grey;
+}
+.down .recentWork p:not:nth-child(2) {
+  color: grey;
+}
+.down .recentWork button {
+  width: 5rem;
+  height: 2rem;
+}
+.down .sanBoxes {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+}
+.down .sanBoxes div {
+  border: solid;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  height: 10%;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #26A2CC;
+  gap: 1rem;
+}
+footer .copyright {
+  background-color: #363B47;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
