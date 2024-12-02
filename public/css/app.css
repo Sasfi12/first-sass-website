@@ -83,7 +83,8 @@ header img {
 .down {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 100%;
   align-items: center;
   gap: 2rem;
 }
