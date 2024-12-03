@@ -104,6 +104,12 @@ header img {
 .up .box p:first-of-type {
   color: #26A2CC;
 }
+.up .box p:last-of-type {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .down {
   display: flex;
