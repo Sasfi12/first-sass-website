@@ -135,6 +135,7 @@ header img {
   background-color: #26A2CC;
   border: none;
   border-radius: 5px;
+  color: white;
 }
 .down .recentWork button:hover {
   cursor: pointer;
@@ -150,14 +151,14 @@ header img {
   flex-direction: column;
   width: 20rem;
   height: 20rem;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #38485f;
   color: white;
 }
 .down .sanBoxes div img {
-  height: auto;
-  width: cover;
+  height: 10rem;
+  width: 20em;
 }
 
 footer {
@@ -167,6 +168,14 @@ footer {
   align-items: center;
   background-color: #26A2CC;
   gap: 1rem;
+}
+footer .logos {
+  display: flex;
+  gap: 1rem;
+}
+footer .logos img {
+  height: 4rem;
+  width: 4rem;
 }
 footer .copyright {
   color: white;
